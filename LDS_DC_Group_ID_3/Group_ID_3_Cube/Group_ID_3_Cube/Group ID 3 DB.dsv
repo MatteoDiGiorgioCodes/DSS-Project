@@ -1,0 +1,584 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="de9cfda4-3728-43ff-941d-f01b367decac" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Group ID 3 DB</ID>
+  <Name>Group ID 3 DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="34" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5108" scrolltop="-1508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17171" y="14896" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Computer_sales" left="6596" top="13544" logicalid="18" controlid="2" masterid="0" hint1="0" hint2="0" width="3307" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000eb0c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Computer_sales" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Cpu" left="6464" top="7149" logicalid="19" controlid="3" masterid="0" hint1="0" hint2="0" width="3572" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f40d00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Cpu" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Geography" left="1020" top="9565" logicalid="20" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Geography" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Gpu" left="3116" top="20944" logicalid="21" controlid="5" masterid="0" hint1="0" hint2="0" width="4868" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000041300009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Gpu" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Ram" left="12303" top="14046" logicalid="22" controlid="6" masterid="0" hint1="0" hint2="0" width="3545" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000d90d00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Ram" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Time" left="10384" top="20944" logicalid="23" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Time" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6801" top="18244" logicalid="24" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Gpu]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="14" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7200" y="20944" />
+                    <point x="7200" y="19744" />
+                    <point x="7149" y="19744" />
+                    <point x="7149" y="18544" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6751" top="10645" logicalid="25" controlid="9" masterid="0" hint1="0" hint2="0" width="2348" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Cpu]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="3" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7150" y="11144" />
+                    <point x="7150" y="12344" />
+                    <point x="8799" y="12344" />
+                    <point x="8799" y="13544" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9603" top="13994" logicalid="26" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Ram]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="14" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12303" y="14393" />
+                    <point x="11103" y="14393" />
+                    <point x="11103" y="14394" />
+                    <point x="9903" y="14394" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9049" top="18244" logicalid="27" controlid="11" masterid="0" hint1="0" hint2="0" width="2135" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Time]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="2" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10784" y="20944" />
+                    <point x="10784" y="19744" />
+                    <point x="9349" y="19744" />
+                    <point x="9349" y="18544" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3720" top="9640" logicalid="28" controlid="12" masterid="0" hint1="0" hint2="0" width="3176" height="4504" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Geography]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4020" y="10039" />
+                    <point x="5396" y="10039" />
+                    <point x="5396" y="13844" />
+                    <point x="6596" y="13844" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vendors" left="0" top="15477" logicalid="29" controlid="13" masterid="0" hint1="0" hint2="0" width="3281" height="1940" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000d10c000094070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Group_ID_3_Vendors" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2981" top="16294" logicalid="30" controlid="14" masterid="0" hint1="0" hint2="0" width="3915" height="1103" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Vendors_Ram]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="2" sourceattachpoint="15" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3281" y="16997" />
+                    <point x="4938" y="16997" />
+                    <point x="4938" y="16594" />
+                    <point x="6596" y="16594" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2981" top="16048" logicalid="31" controlid="15" masterid="0" hint1="0" hint2="0" width="3915" height="1396" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Vendors_Gpu]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="2" sourceattachpoint="13" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3281" y="16447" />
+                    <point x="4938" y="16447" />
+                    <point x="4938" y="17144" />
+                    <point x="6596" y="17144" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2981" top="15498" logicalid="32" controlid="16" masterid="0" hint1="0" hint2="0" width="3915" height="846" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Computer_sales_Vendors_Cpu]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="2" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3281" y="15897" />
+                    <point x="4938" y="15897" />
+                    <point x="4938" y="16044" />
+                    <point x="6596" y="16044" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-5108</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1508</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Group ID 3 DB</DataSourceID>
+  <Schema>
+    <xs:schema id="Group_x0020_ID_x0020_3_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Group_x0020_ID_x0020_3_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="b934cd39-4487-43c3-99a7-25a885c0fda5">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Group_ID_3_Computer_sales" msprop:DbSchemaName="Group_ID_3" msprop:design-time-name="22112430-60e1-41d5-8811-f02bd2656183" msprop:FriendlyName="Computer_sales" msprop:TableType="Table" msprop:DbTableName="Computer_sales">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sale_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="sale_id" msprop:DbColumnName="sale_id" msprop:design-time-name="6cac02e1-cfc5-4c1a-94d5-986e3cce6289" type="xs:int" />
+                  <xs:element name="geo_id" msprop:FriendlyName="geo_id" msprop:DbColumnName="geo_id" msprop:design-time-name="51ab395d-b7ba-424f-af6c-37338bcc7c9d" type="xs:int" />
+                  <xs:element name="time_id" msprop:FriendlyName="time_id" msprop:DbColumnName="time_id" msprop:design-time-name="8bb812da-2a99-4b74-8e95-6f67aa144e75" type="xs:int" />
+                  <xs:element name="ram_id" msprop:FriendlyName="ram_id" msprop:DbColumnName="ram_id" msprop:design-time-name="2da58814-491e-4337-9497-66201d5e8972" type="xs:int" />
+                  <xs:element name="cpu_id" msprop:FriendlyName="cpu_id" msprop:DbColumnName="cpu_id" msprop:design-time-name="0430b3b2-9062-4c71-9830-0efa8c79347c" type="xs:int" />
+                  <xs:element name="gpu_id" msprop:FriendlyName="gpu_id" msprop:DbColumnName="gpu_id" msprop:design-time-name="bcb41b38-6847-4fca-a645-22fed775c468" type="xs:int" />
+                  <xs:element name="ram_sales" msprop:FriendlyName="ram_sales" msprop:DbColumnName="ram_sales" msprop:design-time-name="696238c2-8b23-4cf4-8ee7-d979a8ca0ab3" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ram_sales_USD" msprop:FriendlyName="ram_sales_USD" msprop:DbColumnName="ram_sales_USD" msprop:design-time-name="51e708a1-0f2a-4b02-82b0-65a36604dedb" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="cpu_sales" msprop:FriendlyName="cpu_sales" msprop:DbColumnName="cpu_sales" msprop:design-time-name="4e0a9605-7ce1-48e8-a471-332a296a7248" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="cpu_sales_USD" msprop:FriendlyName="cpu_sales_USD" msprop:DbColumnName="cpu_sales_USD" msprop:design-time-name="8e681720-6f80-4508-b92d-d0b73a299dad" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="gpu_sales" msprop:FriendlyName="gpu_sales" msprop:DbColumnName="gpu_sales" msprop:design-time-name="aa352781-1a4d-4448-a8de-a7a1198db107" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="gpu_sales_USD" msprop:FriendlyName="gpu_sales_USD" msprop:DbColumnName="gpu_sales_USD" msprop:design-time-name="88a4d261-7a72-4916-bab1-bc1a33fc6569" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="total_sales" msprop:FriendlyName="total_sales" msprop:DbColumnName="total_sales" msprop:design-time-name="59ef4c9f-36b1-4e25-9f1c-76e22a6e7ec4" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="total_sales_USD" msprop:FriendlyName="total_sales_USD" msprop:DbColumnName="total_sales_USD" msprop:design-time-name="2fe1da19-2763-42e3-a15f-fe1d1409e0ca" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ram_vendor_id" msprop:DbColumnName="ram_vendor_id" msprop:design-time-name="05989e74-3675-4958-b72b-8a9be9fe0270" type="xs:int" minOccurs="0" />
+                  <xs:element name="cpu_vendor_id" msprop:DbColumnName="cpu_vendor_id" msprop:design-time-name="5286cff9-8a92-4007-bbda-caac8a6c86a4" type="xs:int" minOccurs="0" />
+                  <xs:element name="gpu_vendor_id" msprop:DbColumnName="gpu_vendor_id" msprop:design-time-name="7a7f8319-73a4-4cb6-b7b2-51e2f3417fe3" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_3_Cpu" msprop:DbSchemaName="Group_ID_3" msprop:design-time-name="c43b5dae-d7f8-4d2f-a5c2-cf3d5dfb19a2" msprop:FriendlyName="Cpu" msprop:TableType="Table" msprop:DbTableName="Cpu">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="cpu_id" msprop:FriendlyName="cpu_id" msprop:DbColumnName="cpu_id" msprop:design-time-name="f25a910f-db98-456c-966b-53b852b552ca" type="xs:int" />
+                  <xs:element name="cpu_brand" msprop:FriendlyName="cpu_brand" msprop:DbColumnName="cpu_brand" msprop:design-time-name="c4b2d646-b126-488d-b0a8-5b16d5153bb3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_series" msprop:FriendlyName="cpu_series" msprop:DbColumnName="cpu_series" msprop:design-time-name="f6f35bd7-0c11-4276-8a21-caccde63a3a7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_name" msprop:FriendlyName="cpu_name" msprop:DbColumnName="cpu_name" msprop:design-time-name="63fe5b3d-73d3-4da5-bdc1-269b14ad3299" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_n_cores" msprop:FriendlyName="cpu_n_cores" msprop:DbColumnName="cpu_n_cores" msprop:design-time-name="86779d89-cc82-4b11-807e-53a89155b417" type="xs:double" minOccurs="0" />
+                  <xs:element name="cpu_socket" msprop:FriendlyName="cpu_socket" msprop:DbColumnName="cpu_socket" msprop:design-time-name="a0a09470-7dc7-4b52-aea5-bcf579cd988c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_3_Geography" msprop:DbSchemaName="Group_ID_3" msprop:design-time-name="e1530e6d-2fe8-4256-baf0-24e097736ae4" msprop:FriendlyName="Geography" msprop:TableType="Table" msprop:DbTableName="Geography">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="geo_id" msprop:FriendlyName="geo_id" msprop:DbColumnName="geo_id" msprop:design-time-name="8d6f527a-0d2a-47dc-8e53-e1e289d2dc2f" type="xs:int" />
+                  <xs:element name="country" msprop:FriendlyName="country" msprop:DbColumnName="country" msprop:design-time-name="48472154-3c11-4776-9c43-e8fb395b18a6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="region" msprop:FriendlyName="region" msprop:DbColumnName="region" msprop:design-time-name="63e797e1-53d0-449e-911f-b0afa52ebb82" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="continent" msprop:FriendlyName="continent" msprop:DbColumnName="continent" msprop:design-time-name="50359288-6655-4e23-b62b-2ca77539bfaf" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="currency" msprop:FriendlyName="currency" msprop:DbColumnName="currency" msprop:design-time-name="5a4a3973-18d0-408c-8ef1-e6f7a1997c78" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_3_Gpu" msprop:DbSchemaName="Group_ID_3" msprop:design-time-name="ea649078-36b5-4590-88a2-b4fc80dbdb37" msprop:FriendlyName="Gpu" msprop:TableType="Table" msprop:DbTableName="Gpu">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="gpu_id" msprop:FriendlyName="gpu_id" msprop:DbColumnName="gpu_id" msprop:design-time-name="e9ea3cb8-2263-4173-9b0b-4bbbb2b14b6a" type="xs:int" />
+                  <xs:element name="gpu_brand" msprop:FriendlyName="gpu_brand" msprop:DbColumnName="gpu_brand" msprop:design-time-name="27249332-5ccf-422a-b386-fbe7ee92628d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gpu_processor" msprop:FriendlyName="gpu_processor" msprop:DbColumnName="gpu_processor" msprop:design-time-name="cf01e9e1-83f5-417c-a1ee-7aaa5f8741c5" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gpu_processor_manufacturer" msprop:FriendlyName="gpu_processor_manufacturer" msprop:DbColumnName="gpu_processor_manufacturer" msprop:design-time-name="12624906-1135-45bb-92c5-3510ae723e7e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gpu_memory" msprop:FriendlyName="gpu_memory" msprop:DbColumnName="gpu_memory" msprop:design-time-name="278b4ccc-3635-4d38-b0a9-fe11e8fc21b8" type="xs:double" minOccurs="0" />
+                  <xs:element name="gpu_memory_type" msprop:FriendlyName="gpu_memory_type" msprop:DbColumnName="gpu_memory_type" msprop:design-time-name="72023ae6-2f40-4992-ad01-d9b377d2ef4e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_3_Ram" msprop:DbSchemaName="Group_ID_3" msprop:design-time-name="caba00dc-b29d-460a-8c18-1bdc7c61c249" msprop:FriendlyName="Ram" msprop:TableType="Table" msprop:DbTableName="Ram">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ram_id" msprop:FriendlyName="ram_id" msprop:DbColumnName="ram_id" msprop:design-time-name="ca3c44a9-6f4d-4d18-952b-9c9e29196c4a" type="xs:int" />
+                  <xs:element name="ram_brand" msprop:FriendlyName="ram_brand" msprop:DbColumnName="ram_brand" msprop:design-time-name="46d85ce3-7f5f-4e14-8aa2-c8deb86a22e9" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_name" msprop:FriendlyName="ram_name" msprop:DbColumnName="ram_name" msprop:design-time-name="4cc68b5e-e1fe-4d67-b311-f16469cd4e91" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_size" msprop:FriendlyName="ram_size" msprop:DbColumnName="ram_size" msprop:design-time-name="0253bbc9-367d-485e-9733-47f8e9f9a840" type="xs:double" minOccurs="0" />
+                  <xs:element name="ram_type" msprop:FriendlyName="ram_type" msprop:DbColumnName="ram_type" msprop:design-time-name="4228eb24-2be3-449e-a5b3-cc16ff2750f0" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_clock" msprop:FriendlyName="ram_clock" msprop:DbColumnName="ram_clock" msprop:design-time-name="69c763a2-b2c4-4748-86db-7cdedc66a598" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_3_Time" msprop:DbSchemaName="Group_ID_3" msprop:design-time-name="d5499e0e-4d4f-410e-9e00-e3be5623c512" msprop:FriendlyName="Time" msprop:TableType="Table" msprop:DbTableName="Time">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="time_id" msprop:FriendlyName="time_id" msprop:DbColumnName="time_id" msprop:design-time-name="05a2a67e-8bbf-4401-9da6-d152d11300e5" type="xs:int" />
+                  <xs:element name="month" msprop:FriendlyName="month" msprop:DbColumnName="month" msprop:design-time-name="ddf52609-2fd3-4d8a-928e-d6e6aa25fa60">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="year" msprop:FriendlyName="year" msprop:DbColumnName="year" msprop:design-time-name="27ec57e2-bf0f-4eec-8238-a34815bbfc82" type="xs:int" />
+                  <xs:element name="week" msprop:FriendlyName="week" msprop:DbColumnName="week" msprop:design-time-name="c7cd3e15-025c-405f-90f8-fb2816d98f90" type="xs:int" />
+                  <xs:element name="quarter" msprop:FriendlyName="quarter" msprop:DbColumnName="quarter" msprop:design-time-name="5bb64fcd-16b1-4a34-8ed8-2f5a84dcef68">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="day_of_week" msprop:FriendlyName="day_of_week" msprop:DbColumnName="day_of_week" msprop:design-time-name="344117f2-5e68-4f0c-bf63-30f4ea5678af">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="date" msprop:DbColumnName="date" msprop:design-time-name="dd04d223-27ae-439e-a9f4-c1f8db1cd035" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="day_of_month" msprop:DbColumnName="day_of_month" msprop:design-time-name="a81e5e45-dffb-4e6e-982e-7d2f5b0e1352" type="xs:int" minOccurs="0" />
+                  <xs:element name="month_of_year" msprop:DbColumnName="month_of_year" msprop:design-time-name="36b75dae-42ff-4e34-8310-f1ca5230e925" type="xs:int" minOccurs="0" />
+                  <xs:element name="month_name" msprop:DbColumnName="month_name" msprop:design-time-name="8dacbda9-f323-4d9a-a7bd-9ed874ffc066" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_3_Vendors" msprop:design-time-name="c43a350f-cb62-4806-afec-3d0e08668ad7" msprop:FriendlyName="Vendors" msprop:TableType="Table" msprop:DbSchemaName="Group_ID_3" msprop:DbTableName="Vendors">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="vendor_id" msprop:FriendlyName="vendor_id" msprop:DbColumnName="vendor_id" msprop:design-time-name="b5958f11-9866-484a-8cdf-b571ff64f026" type="xs:int" />
+                  <xs:element name="vendor_name" msprop:FriendlyName="vendor_name" msprop:DbColumnName="vendor_name" msprop:design-time-name="afdbc843-ed68-407a-a4ba-5cae04d62686">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="sale_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_3_Cpu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Cpu" />
+          <xs:field xpath="cpu_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_3_Geography_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Geography" />
+          <xs:field xpath="geo_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_3_Gpu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Gpu" />
+          <xs:field xpath="gpu_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_3_Ram_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Ram" />
+          <xs:field xpath="ram_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_3_Time_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Time" />
+          <xs:field xpath="time_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_3_Vendors_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_3_Vendors" />
+          <xs:field xpath="vendor_id" />
+        </xs:unique>
+        <xs:keyref name="FK_Computer_sales_Geography" refer="Group_ID_3_Geography_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="geo_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Time" refer="Group_ID_3_Time_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="time_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Ram" refer="Group_ID_3_Ram_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="ram_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Cpu" refer="Group_ID_3_Cpu_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="cpu_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Gpu" refer="Group_ID_3_Gpu_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="gpu_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Vendors_Ram" refer="Group_ID_3_Vendors_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="ram_vendor_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Vendors_Gpu" refer="Group_ID_3_Vendors_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="gpu_vendor_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Computer_sales_Vendors_Cpu" refer="Group_ID_3_Vendors_Constraint1">
+          <xs:selector xpath=".//Group_ID_3_Computer_sales" />
+          <xs:field xpath="cpu_vendor_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Group_x0020_ID_x0020_3_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>
